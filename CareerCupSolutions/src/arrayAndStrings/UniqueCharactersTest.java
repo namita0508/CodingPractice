@@ -12,5 +12,9 @@ public class UniqueCharactersTest {
 	public void testUniqueChars(){
 		assertTrue(unique.containsAllUnique("abc"));
 	}
-
+	
+	@Test
+	public void testUniqueBitManipulation(){
+		assertFalse(unique.isAllUniqueChars_UsingBitManipulation("hello"));
+	}
 }
